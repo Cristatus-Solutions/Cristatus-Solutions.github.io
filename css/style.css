@@ -1,0 +1,64 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+header {
+    padding: 5% 20% 5% 20%;
+    background-color: #020249;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Expletus Sans', sans-serif;
+    color: ivory;
+    font-size: 300%;
+}
+
+header h2 {
+    font-family: 'Oleo Script', cursive;
+    color: lightgray;
+    font-size: 120%;
+}
+
+.content {
+    padding: 5% 20% 5% 20%;
+}
+
+footer {
+    margin: 0;
+    padding: 1% 20% 5% 20%;
+    background-color: #01012e;
+    color: whitesmoke;
+}
+
+@keyframes link-hover-in {
+    from {
+        color: darkgreen;
+    }
+    to {
+        color: yellowgreen;
+    }
+}
+
+@keyframes link-hover-out {
+    from {
+        color: yellowgreen;
+    }
+    to {
+        color: darkgreen;
+    }
+}
+
+a {
+    color: darkgreen;
+    text-decoration: none;
+    animation-name: link-hover-out;
+    animation-duration: .5s;
+}
+
+a:hover {
+    animation-name: link-hover-in;
+    animation-duration: 1s;
+}
